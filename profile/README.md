@@ -1,3 +1,3 @@
 # fox-projects
 
-Edwin's miscellaneous projects that don't fit anywhere else.
+[Edwin's](https://github.com/hyperupcall) projects that don't fit elsewhere.
