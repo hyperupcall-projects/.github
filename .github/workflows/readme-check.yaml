@@ -1,0 +1,15 @@
+name: 'Check README'
+on:
+  pull_request:
+  push:
+    branches:
+      - 'main'
+      - 'ci'
+  workflow_dispatch:
+
+jobs:
+  check-readme:
+    runs-on: 'ubuntu-latest'
+    steps:
+      - name: 'Checks Links'
+        uses: 'fox-projects/check-organization-links-action@7d1f18a3fd438c86b54b1cadece8f22f6485ea6e'
